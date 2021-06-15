@@ -1,9 +1,6 @@
 p {
      font-family: arial;
 }
-.title {
-      font-family: Roboto;
-}
 div {
      font-family: arial;
 }
@@ -12,36 +9,21 @@ nav {
 }
 body {
  margin: 0;
- border: dashed 1px red;
 }
-.header {
+.wrapper {
  margin: auto;
  width: 80%;
- border: dashed 1px red;
-}
-.main-section {
- margin: auto;
- width: 80%;
- border: dashed 1px red;
-}
-. wrapper {
- margin: auto;
- width: 80%;
- border: dashed 1px red;
-}
-.logo, .menu {
- display: inline-block;
- border: dashed 1px red;
-}
-.logo {
- margin-right: 63%;
 }
 .header {
  display: flex;
  justify-content: space-between;
 }
 .logo {
+ margin-right: 63%;
  padding: 40px 0;
+}
+.logo, .menu {
+ display: inline-block;
 }
 .menu {
  display: flex;
@@ -49,7 +31,6 @@ body {
 }
 .menu__item {
  padding: 0 13px;
- border: dashed 1px red;
 }
 .menu__item:last-child {
  padding-right: 0;
