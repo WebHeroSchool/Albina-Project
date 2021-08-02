@@ -1,12 +1,33 @@
-p {
-     font-family: arial;
+body {
+ margin: 0;
 }
-.title {
-      font-family: Roboto;
+.image-content {
+font-family: arial;
 }
-div {
-     font-family: arial;
+.wrapper {
+font-family: arial;
+ margin: auto;
+ width: 80%;
 }
-nav {
-     font-family: arial;
+.header {
+ display: flex;
+ justify-content: space-between;
+}
+.logo {
+ margin-right: 63%;
+ padding: 40px 0;
+}
+.logo, .menu {
+ display: inline-block;
+}
+.menu {
+ font-family: arial;
+ display: flex;
+ align-items: center;
+}
+.menu__item {
+ padding: 0 13px;
+}
+.menu__item:last-child {
+ padding-right: 0;
 }
