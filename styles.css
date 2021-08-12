@@ -22,7 +22,7 @@ font-family: arial;
   position: relative;
  padding: 40px 0;
  padding-left: 44px;
- font: bold 24px/31px pt_serif, arial, helvetica, sans-serif;
+ font: bold 24px/31px pt_serifbold, pt_serifbold_italic, pt_serifitalic, pt_serifregular, arial, helvetica, sans-serif;
  }
 
 .logo, .menu {
