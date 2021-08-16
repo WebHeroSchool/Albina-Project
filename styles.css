@@ -87,6 +87,6 @@ font-family: arial;
 }
 
 .menu__item:hover:after, .menu__item_active:after{
-  opacity: 1;
+  opacity: 2;
   width: 100%;
 }
