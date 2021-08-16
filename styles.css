@@ -79,14 +79,12 @@ font-family: arial;
 }
 
 .menu__item:last-child {
- margin-right: 0;
+ margin: 0;
 }
-
 .menu__item:hover{
   opacity: 0.5;
 }
-
 .menu__item:hover:after, .menu__item_active:after{
-  opacity: 2;
+  opacity: 1;
   width: 100%;
 }
